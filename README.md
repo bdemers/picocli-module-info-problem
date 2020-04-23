@@ -4,7 +4,7 @@ Issue: remkop/picocli#994
 
 When I include a module-info.java, I get two different errors depending on how I configure the annotation processing:
 
-Add picocli-codegen as a dependency, i.e.:
+## Add picocli-codegen as a dependency
 
 ```xml
 <dependency>
@@ -25,7 +25,7 @@ Bad service configuration file, or exception thrown while constructing Processor
 
 Work around, delete `module-info.java`
 
-Configure the Maven Compiler Plugin explicitly
+## Configure the Maven Compiler Plugin explicitly
 
 ```xml
 <plugin>
